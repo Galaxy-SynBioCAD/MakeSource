@@ -1,0 +1,32 @@
+<tool id="makeSource" name="Make Source" version="1.0">
+  <description>Make the source file from Galaxy input</description>
+  <stdio>
+		<regex match="ERROR:" level="error" />
+		<regex match="WARNING:" level="warning" />
+	</stdio>
+  <command detect_errors="exit_code"><![CDATA[
+		'$__tool_directory__/tool_makeSource.py' -name '$name' -inchi '$inchi' -sourceFile '$sourceFile'
+  ]]></command>
+  <inputs>
+    <param name="name" type="text" optional="false" label="Compound name" />
+    <param name="inchi" type="text" optional="false" label="Compound InChI" />
+  </inputs>
+  <outputs>
+    <data name="sourceFile" format="csv" label="Source input for RetroPath2.0" />
+  </outputs>
+  <help>
+   This is the help section. Should really write something usefull here :) 
+  </help>
+  <citations>
+    <citation type="bibtex">
+@article{delepine2018retropath2,
+  title={RetroPath2. 0: a retrosynthesis workflow for metabolic engineers},
+  author={Del{\'e}pine, Baudoin and Duigou, Thomas and Carbonell, Pablo and Faulon, Jean-Loup},
+  journal={Metabolic engineering},
+  volume={45},
+  pages={158--170},
+  year={2018},
+  publisher={Elsevier}}
+    </citation>
+  </citations>
+</tool>

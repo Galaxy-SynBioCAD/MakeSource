@@ -1,0 +1,3 @@
+  <section id="sbc" name="SynBioCAD">
+    <tool file="makesource/makesource.xml" />
+  </section>

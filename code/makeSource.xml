@@ -1,5 +1,8 @@
 <tool id="makeSource" name="Make Source" version="1.0">
   <description>Make the source file from Galaxy input</description>
+  <requirements>
+    <container type="docker">python3:latest</container>
+  </requirements>
   <stdio>
 		<regex match="ERROR:" level="error" />
 		<regex match="WARNING:" level="warning" />

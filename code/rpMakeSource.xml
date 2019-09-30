@@ -8,7 +8,7 @@
 		<regex match="WARNING:" level="warning" />
 	</stdio>
   <command detect_errors="exit_code"><![CDATA[
-		'$__tool_directory__/tool_makeSource.py' -name '$name' -inchi '$inchi' -sourceFile '$sourceFile'
+		'$__tool_directory__/rpMakeSource.py' -name '$name' -inchi '$inchi' -sourceFile '$sourceFile'
   ]]></command>
   <inputs>
     <param name="name" type="text" optional="false" label="Compound name" />

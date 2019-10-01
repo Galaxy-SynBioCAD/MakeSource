@@ -1,1 +1,1 @@
-    <tool id="rpMakeSource" destination="docker_local" />
+    <tool id="rpMakeSource" destination="local" />

@@ -12,7 +12,7 @@
     <param name="inchi" type="text" optional="false" label="Compound InChI" />
   </inputs>
   <outputs>
-    <data name="sourceFile" format="csv" label="Source input for RetroPath2.0" />
+    <data name="sourceFile" format="csv" label="Source" />
   </outputs>
   <help><![CDATA[
 rpMakeSource

@@ -8,8 +8,8 @@
 		'$__tool_directory__/tool_rpMakeSource.py' -name '$name' -inchi '$inchi' -sourceFile '$sourceFile'
   ]]></command>
   <inputs>
-    <param name="name" type="text" optional="true" value="target" label="Compound name" />
-    <param name="inchi" type="text" optional="false" label="Compound InChI" />
+    <param name="name" type="text" optional="true" value="cis,cis-muconate" label="Compound name" />
+    <param name="inchi" type="text" optional="false" value="InChI=1S/C6H6O4/c7-5(8)3-1-2-4-6(9)10/h1-4H,(H,7,8)(H,9,10)/p-2/b3-1-,4-2-" label="Compound InChI" />
   </inputs>
   <outputs>
     <data name="sourceFile" format="csv" label="Source" />

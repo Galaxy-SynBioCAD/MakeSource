@@ -10,10 +10,11 @@ Galaxy tool that takes for input the name and InChI string and generates a Retro
 ## Output
 
 * **-sourceFile**: (string) Path to the output file
+Galaxy tool that takes for input an InChI string and a name and constructs a CSV file that is RetroPath2.0 friendly source input.
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+TODO
 
 ## Versioning
 
@@ -25,9 +26,13 @@ v0.1
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+[MIT](https://github.com/Galaxy-SynBioCAD/rpMakeSource/blob/master/LICENSE)
 
 ## Acknowledgments
 
 * Thomas Duigou
 * Joan Hérisson
+
+### How to cite rpMakeSource?
+
+TODO

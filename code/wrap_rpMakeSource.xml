@@ -1,4 +1,4 @@
-<tool id="makeSource" name="Make Source" version="1.0">
+<tool id="makeSource" name="Make Source" version="0.1">
   <description>Make the source file from Galaxy input</description>
   <stdio>
 		<regex match="ERROR:" level="error" />
@@ -20,9 +20,6 @@ rpMakeSource
 
 Galaxy tool that takes for input an InChI string and a name and constructs a CSV file that is RetroPath2.0 friendly source input.
 
-Information Flow
-----------------
-
 Input
 ^^^^^
 
@@ -38,16 +35,6 @@ Output
 
 * Source: CSV file input for RetroPath2.0
 
-Prerequisites
-^^^^^^^^^^^^^
-
-
-* `Galaxy <https://galaxyproject.org>`_ - The Galaxy project
-
-Contributing
-------------
-
-TODO
 
 Versioning
 ----------

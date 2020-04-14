@@ -1,5 +1,5 @@
 <tool id="makeSource" name="Make Source" version="0.1">
-  <description>Make the source file from Galaxy input</description>
+  <description>Make the RetroPath2.0 source file</description>
   <stdio>
 		<regex match="ERROR:" level="error" />
 		<regex match="WARNING:" level="warning" />

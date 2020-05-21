@@ -21,25 +21,26 @@ Make Source
 This Galaxy tool uses a compound name and an InChI string to construct a CSV file that can be used as the source input file for RetroPath2.0. "Source" refers to the target compound desired to be synthesised. 
 
 Input
-^^^^^
+------
 
-Required Information:
+Required:
+^^^^^^^^^
 
 
-* Compound name: (default: target) Name of the target molecule. Example: cis,cis-muconate 
-* Compound InChI: (default: InChI=1S/C6H6O4/c7-5(8)3-1-2-4-6(9)10/h1-4H,(H,7,8)(H,9,10)/p-2/b3-1-,4-2-) Target molecule InChI struture. 
+* **Compound name**\ : (default: target) Name of the target molecule. Example: cis,cis-muconate 
+* **Compound InChI**\ : (default: InChI=1S/C6H6O4/c7-5(8)3-1-2-4-6(9)10/h1-4H,(H,7,8)(H,9,10)/p-2/b3-1-,4-2-) Target molecule InChI struture. 
 
 Output
-^^^^^^
+-------
 
 
-* Source: CSV file input for RetroPath2.0
+* **Source**\ : CSV file input for RetroPath2.0
 
 
-Project External Link
+Project Links
 ---------------------
 
-`GitHub <https://github.com/Galaxy-SynBioCAD/rpMakeSource>`_
+* `GitHub <https://github.com/Galaxy-SynBioCAD/rpMakeSource>`_
 
 
 Version
@@ -56,7 +57,7 @@ Authors
 License
 -------
 
-`MIT <https://github.com/Galaxy-SynBioCAD/rpMakeSource/blob/master/LICENSE>`_
+`MIT <https://raw.githubusercontent.com/Galaxy-SynBioCAD/rpMakeSource/local/LICENSE>`_
 
 Acknowledgments
 ---------------

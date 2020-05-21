@@ -18,7 +18,7 @@
 rpMakeSource
 ============
 
-Galaxy tool that takes for input an InChI string and a name and constructs a CSV file that is RetroPath2.0 friendly source input.
+This Galaxy tool uses the Source Compound Name and InChI string to construct a CSV file that can be used as the Source input file for RetroPath2.0. Source refers to the target compound desired to be synthesized. 
 
 Input
 ^^^^^

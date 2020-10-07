@@ -1,3 +1,0 @@
-  <section id="sbc" name="SynBioCAD">
-    <tool file="rpMakeSource/code/wrap_rpMakeSource.xml" />
-  </section>

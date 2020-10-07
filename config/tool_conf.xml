@@ -1,0 +1,3 @@
+  <section id="sbc-u" name="SynBioCAD Utilities">
+    <tool file="rpTools/rpMakeSource/wrap.xml" />
+  </section>

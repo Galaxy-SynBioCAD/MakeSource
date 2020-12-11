@@ -1,4 +1,4 @@
-<tool id="makeSource" name="Make Source" version="0.1">
+<tool id="makeSource" name="Make Source">
   <description>Make the RetroPath2.0 source file</description>
   <stdio>
 		<regex match="ERROR:" level="error" />
